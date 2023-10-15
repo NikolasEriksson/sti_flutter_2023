@@ -15,7 +15,6 @@ dependencies:
   firedart: ^0.9.7
   hive: ^2.2.3
   meta: ^1.11.0
-  firebase: ^9.0.0
   # path: ^1.8.0
 
 dev_dependencies:
