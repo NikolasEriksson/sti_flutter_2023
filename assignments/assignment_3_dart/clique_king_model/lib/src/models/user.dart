@@ -6,4 +6,11 @@ final class User {
   final String id; // TODO: probably should map to Firebase Authentication id.
 
   User({required this.name, required this.id});
+
+  Map<String, String> toMap() {
+    return {
+      'name': name,
+      'id': id,
+    };
+  }
 }

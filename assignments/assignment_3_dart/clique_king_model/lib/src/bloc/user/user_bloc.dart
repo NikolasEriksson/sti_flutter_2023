@@ -61,7 +61,8 @@ final class UserLoginFailure extends UserState {
 
 final class UserBloc extends Bloc<UserEvent, UserState> {
   final UserRepository _userRepo; // passed in so it can be easily mocked
-  final AuthenticationRepository _authRepo; // passed in so it can be easily mocked
+  final AuthenticationRepository
+      _authRepo; // passed in so it can be easily mocked
 
   UserBloc(
       {required UserRepository userRepository,
